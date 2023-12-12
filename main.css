@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide{
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+}
+.slide-container{
+  display: flex;
+  transition: 0.5s;
+}
+
+.slide-image{
+  width: 500px;
+}
